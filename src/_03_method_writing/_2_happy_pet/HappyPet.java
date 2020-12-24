@@ -18,10 +18,14 @@ String pet =JOptionPane.showInputDialog("what kinda pet of pet do you want to bu
 			//    Make sure to customize the title and question too.
 			int task = JOptionPane.showOptionDialog(null, "What do you want to make your pet happy", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "food", "playtime", "groom" }, null);
-		if()
+
 		}
 			// 5. Use user input to call the appropriate method created in step 4.
 
+if(happinessLevel==10) {
+	JOptionPane.showInputDialog("You can take a break");
+	
+}
 			// 6. If you determine the happiness level is large enough, tell the
 			//    user that he loves his pet and use break; to exit for loop.
 
