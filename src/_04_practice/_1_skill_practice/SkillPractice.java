@@ -15,16 +15,16 @@ public class SkillPractice {
 
 	void skill1() {
 		// Use pop-ups for the following.
-		JOptionPane.showInputDialog("tell me your dime count plz");
-		JOptionPane.showInputDialog("tell me your cents count plz");
-		JOptionPane.showInputDialog(" tell me your height");
+		String dimes =JOptionPane.showInputDialog("tell me your dime count plz");
+		String cents =JOptionPane.showInputDialog("tell me your cents count plz");
+		String height=JOptionPane.showInputDialog(" tell me your height");
 		//if() {
 			
 		//}
 		// Ask the user how many dimes they have
 
 		// Tell them how many cents they have (hint multiply by 10)
-
+int dimes10= Integer
 		// Ask the user how tall they are (inches)
 
 		// If they are shorter than 36 inches, tell them to eat their Wheaties
